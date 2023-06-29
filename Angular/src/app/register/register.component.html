@@ -1,50 +1,48 @@
-<div className="register">
-    <div className="overlap-wrapper">
-        <div className="overlap">
-            <div className="overlap-group">
-                <div className="text-wrapper">RetroSpeaks</div>
-            </div>
-            <div className="div">
-                <div className="password">
-                    <div className="overlap-group-2">
-                        <div className="text-wrapper-2">Password</div>
-                        <img className="fluent-password" alt="Fluent password" src="fluent-password-24-regular.png" />
-                    </div>
+<body>
+    <div class="register">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="overlap-group">
+                    <div class="text-wrapper">RetroSpeaks</div>
                 </div>
-                <div className="user-name">
-                    <div className="overlap-2">
-                        <div className="text-wrapper-3">Username</div>
-                        <img className="vector" alt="Vector" src="vector.png" />
+                <div class="div">
+                    <div class="password">
+                        <input type="password" placeholder="Password" class="passwordText">
                     </div>
-                </div>
-                <div className="lastname">
-                    <div className="overlap-3">
-                        <div className="text-wrapper-4">Lastname</div>
-                        <img className="img" alt="Vector" src="vector-2.png" />
-                    </div>
-                </div>
-                <div className="firstname">
-                    <div className="overlap-4">
-                        <div className="text-wrapper-5">Firstname</div>
-                        <img className="vector-2" alt="Vector" src="image.png" />
-                    </div>
-                </div>
-                <div className="overlap-group-wrapper">
-                    <div className="div-wrapper">
-                        <div className="text-wrapper-6">Register</div>
-                    </div>
-                </div>
-                <h1 className="h-1">Register your Account</h1>
-                <div className="overlap-5">
-                    <div className="login">Have an Account?</div>
-                    <div className="login-2">
-                        <div className="overlap-6">
-                            <div className="text-wrapper-7">Login</div>
+                    <div class="user-name">
+                        <div class="overlap-group-2">
+                            <input type="text" placeholder="Username" class="usernameText">
                         </div>
                     </div>
-                    <p className="p">Login and Start Discover what Retrospeaks is. Discuss and Connect now!</p>
+                    <div class="email">
+                        <div class="overlap-group-2">
+                            <input type="email" placeholder="Email" class="emailText">
+                        </div>
+                    </div>
+                    <div class="lastname">
+                        <div class="overlap-group-2">
+                            <input type="text" placeholder="Lastname" class="lastnameText">
+                        </div>
+                    </div>
+                    <div class="firstname">
+                        <div class="overlap-group-2">
+                            <input type="text" placeholder="Firstname" class="firstnameText">
+                        </div>
+                    </div>
+                    <div class="overlap-group-wrapper">
+                        <button class="registerButton">Register</button>
+                    </div>
+                    <h1 class="h-1">Register your Account</h1>
+                    <div class="overlap-2">
+                        <div class="login">Have an Account?</div>
+                        <div class="login-2">
+                                <!-- <div class="text-wrapper-5">Login</div> -->
+                            <button class="loginButton" (click)="goToLogin()">Login</button>
+                        </div>
+                        <p class="p">Login and Start Discover what Retrospeaks is. Discuss and Connect now!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</body>

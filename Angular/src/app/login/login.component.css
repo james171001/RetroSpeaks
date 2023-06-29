@@ -1,3 +1,45 @@
+.loginButton {
+    height: 31px;
+    left: 59px;
+    position: absolute;
+    top: 348px;
+    width: 369px;
+    background-color: #00866e;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    border: 0px;
+}
+
+.loginButton:hover {
+    background-color: #006c5a;
+    /* Change the background color on hover */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+}
+
+.signupButton {
+    background-color: #99d6c8;
+    border-radius: 20px;
+    height: 31px;
+    position: relative;
+    width: 247px;
+    color: #ffffff;
+    border: 0px;
+}
+
+.signupButton:hover {
+    background-color: #77b7a8;
+    /* Change the background color on hover */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+}
+
 .login {
     background-color: #ffffff;
     display: flex;
@@ -209,28 +251,6 @@
     position: absolute;
     top: 302px;
     width: 249px;
-}
-
-.login .login-wrapper {
-    background-color: #99d6c8;
-    border-radius: 20px;
-    height: 31px;
-    position: relative;
-    width: 247px;
-}
-
-.login .text-wrapper-6 {
-    color: #ffffff;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 14px;
-    font-weight: 600;
-    left: 97px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 8px;
-    white-space: nowrap;
-    width: 54px;
 }
 
 .login .p {

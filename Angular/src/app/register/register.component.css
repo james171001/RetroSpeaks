@@ -1,3 +1,7 @@
+.body {
+    background-color: #D9D9D9;
+}
+
 .register {
     background-color: #ffffff;
     display: flex;
@@ -14,9 +18,10 @@
 }
 
 .register .overlap {
-    background-image: url(./page-background.png);
+    background-color: #D9D9D9;
     background-size: 100% 100%;
     height: 1024px;
+    width: 100%;
     position: relative;
 }
 
@@ -57,13 +62,22 @@
     height: 35px;
     left: 59px;
     position: absolute;
-    top: 358px;
+    top: 390px; /* Adjusted top position */
     width: 369px;
 }
 
 .register .overlap-group-2 {
     background-color: #ededed;
     border-radius: 25px;
+    height: 35px;
+    position: relative;
+    width: 367px;
+}
+
+.register input {
+    background-color: #ededed;
+    border-radius: 10px;
+    border: none;
     height: 35px;
     position: relative;
     width: 367px;
@@ -92,19 +106,12 @@
 
 .register .user-name {
     height: 35px;
-    left: 58px;
+    left: 59px;
     position: absolute;
-    top: 310px;
+    top: 345px;
     width: 369px;
 }
 
-.register .overlap-2 {
-    background-color: #ededed;
-    border-radius: 25px;
-    height: 35px;
-    position: relative;
-    width: 367px;
-}
 
 .register .text-wrapper-3 {
     color: #b8b8b8;
@@ -135,35 +142,6 @@
     width: 369px;
 }
 
-.register .overlap-3 {
-    background-color: #ededed;
-    border-radius: 25px;
-    height: 35px;
-    position: relative;
-    width: 367px;
-}
-
-.register .text-wrapper-4 {
-    color: #b8b8b8;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    left: 63px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 11px;
-    width: 65px;
-}
-
-.register .img {
-    height: 20px;
-    left: 34px;
-    position: absolute;
-    top: 8px;
-    width: 17px;
-}
-
 .register .firstname {
     height: 35px;
     left: 59px;
@@ -172,41 +150,35 @@
     width: 369px;
 }
 
-.register .overlap-4 {
-    background-color: #ededed;
-    border-radius: 25px;
+.register .email {
     height: 35px;
-    position: relative;
-    width: 367px;
-}
-
-.register .text-wrapper-5 {
-    color: #b8b8b8;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    left: 63px;
-    letter-spacing: 0;
-    line-height: normal;
+    left: 59px;
     position: absolute;
-    top: 11px;
-    width: 65px;
-}
-
-.register .vector-2 {
-    height: 20px;
-    left: 34px;
-    position: absolute;
-    top: 8px;
-    width: 17px;
+    top: 297px; /* Adjusted top position */
+    width: 369px;
 }
 
 .register .overlap-group-wrapper {
     height: 31px;
-    left: 58px;
+    left: 150px;
     position: absolute;
-    top: 411px;
+    top: 450px;
     width: 369px;
+    border-radius: 10px;
+}
+.registerButton{
+    background-color: #00866e;
+    border-radius: 20px;
+    border: none;
+    height: 31px;
+    position: absolute;
+    width: 200px;
+    color: white;
+    left: 200;
+}
+.registerButton:hover {
+    background-color: #006956;
+    cursor: pointer;
 }
 
 .register .div-wrapper {
@@ -217,7 +189,7 @@
     width: 367px;
 }
 
-.register .text-wrapper-6 {
+.register .text-wrapper-4 {
     color: #ffffff;
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 14px;
@@ -241,11 +213,11 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 94px;
+    top: 10px;
     width: 341px;
 }
 
-.register .overlap-5 {
+.register .overlap-2 {
     background-color: #00866dad;
     border-radius: 40px;
     height: 504px;
@@ -269,15 +241,16 @@
     width: 341px;
 }
 
+
 .register .login-2 {
     height: 31px;
-    left: 47px;
+    left: -50px;
     position: absolute;
-    top: 302px;
+    top: 320px;
     width: 249px;
 }
 
-.register .overlap-6 {
+.register .overlap-3 {
     background-color: #99d6c8;
     border-radius: 20px;
     height: 31px;
@@ -285,7 +258,7 @@
     width: 247px;
 }
 
-.register .text-wrapper-7 {
+.register .text-wrapper-5 {
     color: #ffffff;
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 14px;
@@ -297,6 +270,28 @@
     top: 8px;
     white-space: nowrap;
     width: 54px;
+}
+
+.loginButton{
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 98px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    white-space: nowrap;
+    background-color: #99d6c8;
+    border-radius: 20px;
+    height: 31px;
+    width: 247px;
+    border: none;
+}
+.loginButton:hover {
+    background-color: #77c0b8;
+    cursor: pointer;
 }
 
 .register .p {
